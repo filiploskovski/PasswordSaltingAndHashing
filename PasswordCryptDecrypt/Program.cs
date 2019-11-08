@@ -48,7 +48,6 @@ namespace PasswordCryptDecrypt
                 GenerateSaltString();
             return result;
         }
-
         public static bool CheckSaltInDatabase(string salt)
         {
             return saltStringInDatabase.Contains(salt);
